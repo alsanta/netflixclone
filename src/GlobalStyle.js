@@ -9,20 +9,22 @@ export const GlobalStyle = createGlobalStyle`
         --darkGrey: #1c1c1c;
         --fontSuperBig: 2.5rem;
         --fontBig: 1.5rem;
+        --fontMed: 1.2rem;
         --fontSmall: 1rem;
     }
 
     * {
-        boxsizing: border-box;
+        box-sizing: border-box;
         font-family: 'Abel' , sans-serif;
     }
 
     body {
         margin: 0;
-        padding 0;
+        padding: 0;
+        box-sizing: border-box;
 
         h1 {
-            font-sizing: 2rem;
+            font-size: 2rem;
             font-weight: 600;
             color: var(--white);
         }
